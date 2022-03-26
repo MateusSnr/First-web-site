@@ -1,0 +1,61 @@
+@charset "utf8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Red+Hat+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Red+Hat+Mono:wght@300&display=swap');
+
+    h1{
+        font-family: 'Bebas Neue';
+        font-size: 40px;
+        color: darkslateblue;
+        text-align: center;
+    }
+
+    p{
+        font-family: 'Dancing Script';
+        font-size: 30px;
+        text-align: center;
+    }
+
+    label{
+        font-family: 'Dancing Script';
+        font-size: 30px;
+        display: block;
+        margin-left: 50px;
+    }
+
+    input{
+        padding: 4px;
+        border:1px solid #333;
+        border-radius: 5px;
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    button{
+        margin-top: 20px;
+        margin-left: 50px;
+        display: block;
+    }
+    
+    body{
+        border: solid;
+        border-radius: 10px;
+        margin: 200px;
+    }
+
+   img{
+       width: 120px;
+   }
+
+   address{
+       margin-left: 50px;
+   }
+
+    img.direitamid{
+        float: right;
+        margin-right: 90px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+
