@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <meta = charset="UTF-8">
+        <meta charset="UTF-8">
         <title>Login SNR Consultoria de Tecnologia</title>
         <link rel="stylesheet" href="CSS/style.css">
     </head>
@@ -16,16 +16,24 @@
         <img src="Imagens/WhatsApp Image 2022-03-20 at 13.06.39.jpeg"
         alt="Destaque do mês da empresa"class = "direitamid">
         </p>
-       
-        <label for="usuario">Usuário</label>
-        <input type="text" class="form-control" placeholder="Nome de usuário" name="usuario" id="usuario" size="10" maxlength="10" minlength="8">
-    
         
-        <label for="senha">Senha</label>
-        <input type="text" class="form-control" placeholder="Senha" name="senha" id="senha" size="10" maxlength="10" minlength="8">
+        <form>
+            <label for="usuario">Usuário
+                <input type="text" class="form-control" placeholder="Nome de usuário" name="usuario" id="usuario"  maxlength="10" minlength="8"
+        
+                required pattern="[a-zA-Z]">
+    
+            </label>
+            <label for="senha">Senha
+                <input type="text" class="form-control" placeholder="Senha" name="senha" id="senha" maxlength="10" minlength="8"
+        
+                required pattern="[a-zA-Z]">
        
-       
-        <button>Entrar</button>
+            </label>
+
+            <input type="submit" value="enviar">
+
+        </form>
 
        <p>
            Acesse nosso perfil no <a href = "https://www.linkedin.com/in/mateus-salles-novaes-rocha-877a7620a/">Linkedin</a>

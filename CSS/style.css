@@ -28,6 +28,7 @@
         border:1px solid #333;
         border-radius: 5px;
         margin-left: 50px;
+        margin-top: 10px;
         width: 200px;
     }
 
@@ -58,4 +59,15 @@
         margin-bottom: 10px;
     }
 
+    a:hover{
+        color: purple;
+    }
+
+    a:active{
+        color: aquamarine;
+    }
+
+    a{
+        color:chocolate
+    }
 
